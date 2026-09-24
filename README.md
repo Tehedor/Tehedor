@@ -1,17 +1,21 @@
-# Tehedor
+# Proyectos principales
 
-## Proyectos principales
+## 3DHub
 
-### 3DHub
+Marketplace para gestión de impresión 3D que conecta diseñadores con fabricantes autónomos, permitiendo flujos de trabajo automatizados desde cotización hasta envío.
 
-[3DHub](https://github.com/Tehedor/3DHub/tree/main) — Marketplace para gestión de impresión 3D que conecta diseñadores con fabricantes autónomos.
+**Características principales:**
+- Subida de diseños 3D (STL/OBJ) con previsualización en tiempo real
+- Estimación automática de material, tiempo y costes
+- Dos modos de usuario: Designer (subida y gestión de proyectos) y Fabricante (recepción de trabajos, control de colas)
+- Gestión completa de pedidos y empaquetado
+- Integraciones de envío automatizadas
 
-Descripción
-- Objetivo: permitir que usuarios suban diseños 3D, reciban presupuestos automáticos y gestionen la producción y envío.
-- Modos: **Usuario** (subida de diseños, previsualización, cálculo de filamento y costes) y **Fabricante** (recepción de trabajos, control de colas e historial de pedidos).
-- Funcionalidades clave: subida de STL/OBJ, estimación de material y tiempo, cálculo de costes, gestión de pedidos y empaquetado, integraciones de envío.
+### Repositorios
 
-#### Tecnologías
+- [3DHub Repository](https://github.com/Tehedor/3DHub/tree/main)
+
+### Tecnologías
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/springboot-initializer.svg" alt="Spring Boot" width="32" style="margin-right:6px"/>
@@ -25,7 +29,7 @@ Descripción
 
 ---
 
-### IoT Middleware Ciudad de Lego
+## IoT Middleware Ciudad de Lego
 
 Diseño y desarrollo de una plataforma IoT escalable basada en microservicios para la captura, procesamiento y almacenamiento de datos de hardware físico en tiempo real.
 
@@ -37,13 +41,13 @@ Diseño y desarrollo de una plataforma IoT escalable basada en microservicios pa
 - Motor de enrutamiento inteligente (Orion-LD, Draco)
 - Suscripciones dinámicas y persistencia en MongoDB y MinIO
 
-#### Repositorios
+### Repositorios
 
 - [Modelos de datos LEGO City para Context LD](https://github.com/Tehedor/smart-LEGO-data-models)
 - [Código Raspberry Pi](https://github.com/Tehedor/raspberry_iot)
 - [Servicios Middleware](https://github.com/Tehedor/MiddlewareCiudadLego)
 
-#### Tecnologías
+### Tecnologías
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/python.svg" alt="Python" width="32" style="margin-right:6px"/>
@@ -60,9 +64,9 @@ Diseño y desarrollo de una plataforma IoT escalable basada en microservicios pa
   <img src="https://avatars.githubusercontent.com/u/5936803?s=60&v=4" alt="Orion-LD" width="32" style="margin-right:6px"/>
 </p>
 
+---
 
-
-### MLOps de modelos ML/DL en entorno Edge Computing
+## MLOps de modelos ML/DL en entorno Edge Computing
 
 Automatización del ciclo de vida completo (MLOps) para el entrenamiento, validación y despliegue de modelos de Machine Learning y Deep Learning en entornos Edge Computing.
 
@@ -73,14 +77,14 @@ Automatización del ciclo de vida completo (MLOps) para el entrenamiento, valida
 - Análisis de ventanas de eventos en tiempo real
 - Despliegue en entornos de Edge Computing
 
-#### Repositorios
+### Repositorios
 
 - [Dashboard de control MLOps](https://github.com/Tehedor/MLOPS_Dashboard-Clrl)
 - [Visualizador de eventos temporales](https://github.com/Tehedor/MDS-Dashboard)
 - [Visualizador de ventanas de eventos](https://github.com/Tehedor/windows_event_analyzer)
 - [Pipelines del ciclo MLOps](https://github.com/TeheORG/)
 
-#### Tecnologías
+### Tecnologías
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/python.svg" alt="Python" width="32" style="margin-right:6px"/>
